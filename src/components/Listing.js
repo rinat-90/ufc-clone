@@ -1,18 +1,15 @@
-import React, { useState } from 'react';
+import React  from 'react';
 import ImageSlider from "./ImageSlider";
 import './listing.css'
 import fightPasImg from '../assets/images/ufc-fight-pass.png'
 
-const initialEvents = [
+const events = [
   { title:  'Jacob Kilburn vs Austin Lingo', date: 'Sat, Jan 16', time: '11:00 AM CST', card: 'Prelims', venue: 'UFC Fight Island', location: 'Abu Dhabi, United Arab Emirates', fighterRedImg: '../assets/images/fighter', fighterBlueImg: '../assets/images/fighter-2', },
   { title:  'Jacob Kilburn vs Austin Lingo', date: 'Sat, Jan 16', time: '11:00 AM CST', card: 'Prelims', venue: 'UFC Fight Island', location: 'Abu Dhabi, United Arab Emirates', fighterRedImg: '../assets/images/fighter', fighterBlueImg: '../assets/images/fighter-2', },
-  // { title:  'Jacob Kilburn vs Austin Lingo', date: '', time: '', venue: '', location: '', fighterRedImg: '', fighterBlueImg: '', },
-  // { title:  'Jacob Kilburn vs Austin Lingo', date: '', time: '', venue: '', location: '', fighterRedImg: '', fighterBlueImg: '', },
 ]
 
 
 const Listing = () => {
-  const [events, setEvents] = useState(initialEvents)
   return (
     <section className="listing">
       <ul className="listing-group">
@@ -27,10 +24,10 @@ const Listing = () => {
               </div>
               <div className="card-info">
                 <h3 className="card-headline">
-                  <a href="/">{event.title}</a>
+                  <a href={ () => false }>{event.title}</a>
                 </h3>
                 <div className="card-date">
-                  <a href="">{event.date}/ {event.time} / {event.card}</a>
+                  <a href={ () => false }>{event.date}/ {event.time} / {event.card}</a>
                 </div>
                 <div className="card-location">
                   <div className="card-field-name-title">
@@ -46,7 +43,7 @@ const Listing = () => {
                 </div>
               </div>
               <div className="card-action">
-                <a href="/" className="btn">how to watch</a>
+                <a href={ () => false } className="btn">how to watch</a>
               </div>
             </article>
           </li>
