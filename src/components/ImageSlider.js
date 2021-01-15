@@ -26,20 +26,15 @@ const ImageSlider = () => {
         </div>
       </div>
     </div>
-    <div>
-      <h3>2</h3>
-    </div>
-    <div>
-      <h3>3</h3>
-    </div>
-    <div>
-      <h3>4</h3>
-    </div>
-    <div>
-      <h3>5</h3>
-    </div>
-    <div>
-      <h3>6</h3>
+    <div className="slick-slide">
+      <div className="slick-slide-wrapper">
+        <div className="card-red-corner">
+          <img className="card-img" src={fighterA} alt=""/>
+        </div>
+        <div className="card-blue-corner">
+          <img className="card-img" src={fighterB} alt=""/>
+        </div>
+      </div>
     </div>
   </Slider>
 };

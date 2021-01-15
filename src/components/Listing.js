@@ -27,7 +27,7 @@ const Listing = () => {
               </div>
               <div className="card-info">
                 <h3 className="card-headline">
-                  <a href="">{event.title}</a>
+                  <a href="/">{event.title}</a>
                 </h3>
                 <div className="card-date">
                   <a href="">{event.date}/ {event.time} / {event.card}</a>
@@ -46,7 +46,7 @@ const Listing = () => {
                 </div>
               </div>
               <div className="card-action">
-                <a href="#" className="btn">how to watch</a>
+                <a href="/" className="btn">how to watch</a>
               </div>
             </article>
           </li>
