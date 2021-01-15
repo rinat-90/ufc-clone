@@ -1,0 +1,115 @@
+
+.listing{
+    padding: 80px 0;
+}
+
+.listing-group {
+    width: 100%;
+    display: block;
+}
+.listing-item {
+    display: block;
+    padding: 0;
+    border-top: 1px solid #eeeeef;
+    background-color: #fff;
+    position: relative;
+    transition: all .5s ease;
+    width: 100%;
+}
+
+.listing-item:hover{
+    box-shadow: 0 4px 35px rgba(0,0,0,.3);
+    z-index: 10;
+    border-bottom-color: transparent;
+}
+.card {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1220px;
+    box-shadow: none;
+}
+.card .card-header-logo{
+    width: 80px;
+    height: 37px;
+}
+
+.card-fight-container {
+    width: 450px;
+    height: 160px;
+}
+
+.card-headline {
+    font-family: 'Klavika Web Regular Condensed';
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+}
+.card-headline a {
+    color: #000;
+    font-family: 'Klavika Web Regular Condensed';
+    font-weight: bold;
+}
+.card-info .card-date a {
+    font-weight: bold;
+    font-size: 14px;
+}
+.card-info .card-date a{
+    line-height: 1.25rem;
+    font-size: .875rem;
+    text-transform: uppercase;
+    color: #191919;
+    font-family: 'KlavikaWebCondensed', sans-serif;
+}
+
+.card-info .card-location {
+    line-height: 1.25rem;
+    font-size: .875rem;
+    color: #585b63;
+}
+
+.card-field-name-title h5, .card-field-name-location p {
+    font-weight: 400;
+    line-height: 1.25rem;
+    font-size: .875rem;
+    color: #585b63;
+}
+
+.btn {
+    font-family: 'DIN 2014';
+    font-size: 14px;
+    width: 100%;
+    padding: 17.25px;
+    border: .5px solid rgba(99,91,99,.25);
+    color: #000;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 900px) {
+    .listing-item{
+        text-align: center;
+    }
+    .card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card .card-fight-container {
+        height: auto;
+    }
+
+    .card .card-header,
+    .card .card-fight-container,
+    .card .card-info {
+        margin-bottom: 15px;
+    }
+    .card .card-action > .btn {
+        display: block;
+    }
+}

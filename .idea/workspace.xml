@@ -1,6 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7504717f-6b5a-4122-bcb8-f7d679829b97" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1n5T5OuJoWGiI087JHpamDvTHY7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/fonts" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7504717f-6b5a-4122-bcb8-f7d679829b97" name="Default Changelist" comment="" />
+      <created>1610678768821</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610678768821</updated>
+      <workItem from="1610678770107" duration="25565000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="655" y="370" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610687687401">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="655" y="370" key="#com.intellij.fileTypes.FileTypeChooser/-1920.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1610687687401" />
+    <state x="335" y="324" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610680108295">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="335" y="324" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1610680108295" />
+    <state x="113" y="268" width="670" height="676" key="search.everywhere.popup" timestamp="1610683729457">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="113" y="268" width="670" height="676" key="search.everywhere.popup/-1920.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1610683729457" />
   </component>
 </project>

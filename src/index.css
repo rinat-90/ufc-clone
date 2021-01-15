@@ -1,13 +1,36 @@
+@font-face {font-family: "Klavika Web Regular Condensed"; src: url("//db.onlinewebfonts.com/t/9ea60840bd8fe427a00ded2338da6211.eot"); src: url("//db.onlinewebfonts.com/t/9ea60840bd8fe427a00ded2338da6211.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9ea60840bd8fe427a00ded2338da6211.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9ea60840bd8fe427a00ded2338da6211.woff") format("woff"), url("//db.onlinewebfonts.com/t/9ea60840bd8fe427a00ded2338da6211.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9ea60840bd8fe427a00ded2338da6211.svg#Klavika Web Regular Condensed") format("svg"); }
+@font-face {
+    font-family: 'DIN 2014';
+    src: url('./assets/fonts/DIN2014/DIN2014-Bold.eot');
+    src: local('DIN 2014 Bold'), local('DIN2014-Bold'),
+    url('./assets/fonts/DIN2014/DIN2014-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/DIN2014/DIN2014-Bold.woff') format('woff'),
+    url('./assets/fonts/DIN2014/DIN2014-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+:root{
+    --accentColor: #d20a0a;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    color: #585b63;
+    font-family: DIN2014,Arial,sans-serif;
+    font-size: 100%;
+    line-height: 1.5em;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul{
+    list-style-type: none;
 }
+
+a{
+    text-decoration: none;
+}
+
+

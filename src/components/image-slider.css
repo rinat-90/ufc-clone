@@ -1,0 +1,64 @@
+.slick-slide{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+}
+
+.slider-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.slick-slide-wrapper{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #eeeeef;
+}
+
+.card-red-corner, .card-blue-corner{
+    position: relative;
+    left: 10px;
+    z-index: 2;
+}
+
+.card-blue-corner{
+    position: relative;
+    z-index: 1;
+    right: 63px;
+    margin-right: 1rem;
+    margin-left: -4rem;
+}
+
+.card-img {
+    width: 230px;
+    height: 160px;
+}
+.slick-next {
+    right: 1rem;
+}
+.slick-prev {
+    left: 1rem;
+    z-index: 2;
+}
+.slick-next, .slick-prev {
+    width: 48px;
+    height: 48px;
+    border: 2px solid #eeeeef;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 900px) {
+    .card-img {
+        width: 150px;
+        height: 100px;
+    }
+    .slick-next {
+        right: 0;
+    }
+    .slick-prev {
+        left: 0;
+    }
+}

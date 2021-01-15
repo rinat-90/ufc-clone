@@ -1,0 +1,123 @@
+
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../assets/images/ufc-banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center center;
+    background-attachment: fixed;
+    z-index: 999;
+    position: relative;
+}
+
+.menu-panel {
+    width: 100%;
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+
+}
+
+.menu-panel.sticky > .menu-panel-outer {
+    width: 100%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+}
+
+.menu-panel-outer{
+    width: 100%;
+    max-width: 1220px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    transition: all 1s ease;
+    background-color: #fff;
+    box-shadow: 0 4px 14px 0 rgba(0,0,0,.2);
+}
+
+.menu-panel-outer.isDark {
+    background-color: #000;
+    color: #fff;
+    max-width: 100%;
+}
+
+.menu-panel-inner{
+    width: 100%;
+    max-width: 1220px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.navbar {
+    width: 100%;
+    height: 65px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.menu-list{
+    padding: 0 15px;
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+.menu-list-item--left, .menu-list-item--right{
+    display: flex;
+}
+.menu-list-item--right.is-pushed {
+    margin-left: auto;
+}
+
+.menu-list-item--home{
+    position: absolute;
+    left: calc(50% - 3.0625rem);
+    height: 100%;
+}
+
+.menu-list-item--home .logo-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+.menu-link {
+    font-family: 'DIN 2014';
+    padding: 22px 18px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+    transition: all .5s ease;
+}
+
+
+.menu-link.active {
+    color: var(--accentColor);
+}
+
+.logo-svg__icon {
+    position: relative;
+    width: 3.875rem;
+    height: 1.4rem;
+    margin: 0 auto;
+}
+
+.menu-link:hover, .menu-link.isDark:hover {
+    color: var(--accentColor);
+}
+
+.menu-link.isDark{
+    color: #fff;
+}
+
+.menu-link.active {
+    color: var(--accentColor);
+}
+
+
