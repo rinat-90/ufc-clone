@@ -35,19 +35,19 @@ const Header = () => {
           <nav className="navbar">
             <ul className="menu-list">
               <li className="menu-list-item--left">
-                <a href="javascript:void(0);" className={isSticky ? 'menu-link isDark active': 'menu-link active'}>Events</a>
+                <a href={ () => false } className={isSticky ? 'menu-link isDark active': 'menu-link active'}>Events</a>
               </li>
               <li className="menu-list-item--left">
-                <a href="/" className={isSticky ? 'menu-link isDark': 'menu-link '}>rankings</a>
+                <a href={ () => false } className={isSticky ? 'menu-link isDark': 'menu-link '}>rankings</a>
               </li>
               <li className="menu-list-item--left">
-                <a href="javascript:void(0);" className={isSticky ? 'menu-link isDark': 'menu-link '}>athletes</a>
+                <a href={ () => false } className={isSticky ? 'menu-link isDark': 'menu-link '}>athletes</a>
               </li>
               <li className="menu-list-item--left">
-                <a href="javascript:void(0);" className={isSticky ? 'menu-link isDark': 'menu-link '}>news</a>
+                <a href={ () => false } className={isSticky ? 'menu-link isDark': 'menu-link '}>news</a>
               </li>
               <li className="menu-list-item--home">
-                <a href="javascript:void(0);" className={isSticky ? 'menu-link isDark': 'menu-link '}>
+                <a href={ () => false } className={isSticky ? 'menu-link isDark': 'menu-link '}>
                   <div className="logo-svg__icon">
                     <svg className="logo-svg" aria-hidden="true">
                       <svg id="ufc-logo" viewBox="0 0 341 119" fill={isSticky ? '#fff' : ''}>
@@ -58,16 +58,16 @@ const Header = () => {
                 </a>
               </li>
               <li className="menu-list-item--right is-pushed">
-                <a href="javascript:void(0);" className={isSticky ? 'menu-link isDark': 'menu-link '}>videos</a>
+                <a href={ () => false } className={isSticky ? 'menu-link isDark': 'menu-link '}>videos</a>
               </li>
               <li className="menu-list-item--right">
-                <a href="javascript:void(0);" className={isSticky ? 'menu-link isDark': 'menu-link '}>connect</a>
+                <a href={ () => false } className={isSticky ? 'menu-link isDark': 'menu-link '}>connect</a>
               </li>
               <li className="menu-list-item--right">
-                <a href="javascript:void(0);" className={isSticky ? 'menu-link isDark': 'menu-link '}>watch</a>
+                <a href={ () => false } className={isSticky ? 'menu-link isDark': 'menu-link '}>watch</a>
               </li>
               <li className="menu-list-item--right">
-                <a href="javascript:void(0);" className={isSticky ? 'menu-link isDark': 'menu-link '}>shop</a>
+                <a href={ () => false } className={isSticky ? 'menu-link isDark': 'menu-link '}>shop</a>
               </li>
             </ul>
           </nav>
