@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -46,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610678768821</updated>
-      <workItem from="1610678770107" duration="29458000" />
+      <workItem from="1610678770107" duration="37186000" />
     </task>
     <servers />
   </component>
@@ -54,6 +54,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="360" y="232" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610766447904">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="360" y="232" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1610766447904" />
     <state x="655" y="370" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610687687401">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>

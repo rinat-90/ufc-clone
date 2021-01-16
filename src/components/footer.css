@@ -1,0 +1,145 @@
+@font-face {font-family: "Klavika Web Regular Condensed"; src: url("//db.onlinewebfonts.com/t/9ea60840bd8fe427a00ded2338da6211.eot"); src: url("//db.onlinewebfonts.com/t/9ea60840bd8fe427a00ded2338da6211.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9ea60840bd8fe427a00ded2338da6211.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9ea60840bd8fe427a00ded2338da6211.woff") format("woff"), url("//db.onlinewebfonts.com/t/9ea60840bd8fe427a00ded2338da6211.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9ea60840bd8fe427a00ded2338da6211.svg#Klavika Web Regular Condensed") format("svg"); }
+footer {
+    position: relative;
+    width: 100%;
+    min-height: 20rem;
+    height: 20rem;
+}
+
+footer .footer-inner {
+    background-color: #000;
+    min-height: 20rem;
+    height: 20rem;
+    padding: 2em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.footer-wrapper {
+    width: 100%;
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.footer-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation .footer-main-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation .footer-main-menu .footer-menu-item {
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+.navigation .footer-main-menu .footer-menu-item:last-child{
+    margin-right: 0;
+}
+
+.footer-menu-item .footer-menu-item__title {
+    color: #fff;
+    font-family: 'Klavika Web Regular Condensed', sans-serif;
+    font-size:  18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.footer-main-sub-menu-item a {
+    font-weight: 400;
+    font-family: 'Klavika Web Regular Condensed';
+    text-transform: none;
+    color: #585b63;
+    transition: all .5s ease;
+}
+
+.footer-menu-item .footer-main-sub-menu-item a:hover{
+    color: #fff;
+}
+
+.footer-main-localization {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.footer-main-localization  a{
+    width: 80px;
+    height: 32px;
+    display: block;
+    position: relative;
+}
+
+.footer-logo .logo-svg{
+    position: absolute;
+    width: 80px;
+    height: 32px;
+    top: 0;
+    left: 0;
+}
+
+.ufc-localization{
+    margin-left: 1em;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    color: #fff;
+    font-family: 'Klavika Web Regular Condensed';
+}
+
+
+@media screen and (max-width: 900px) {
+
+    footer, footer .footer-inner {
+        height: 27rem;
+
+    }
+
+    .footer-main, .footer-main-localization {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-main-localization {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+    .footer-main-localization .footer-logo{
+        margin-bottom: 15px;
+    }
+    .ufc-localization{
+        margin-left: 0;
+    }
+    .navigation{
+        width: 100%;
+    }
+    .navigation .footer-main-menu {
+        justify-content: space-around;
+        border-bottom: 1px solid #ccc;
+        border-top: 1px solid #ccc;
+        padding: 2rem 0;
+    }
+
+    .navigation .footer-main-menu .footer-menu-item {
+        margin: 0;
+    }
+
+    .footer-copyright{
+        padding: 2rem 0;
+        text-align: center;
+    }
+}
