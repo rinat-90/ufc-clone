@@ -25,7 +25,19 @@ const Header = () => {
             <ul className="menu-list">
               <NavLink isDark={isDark} text="Events" side="left" active />
               <NavLink isDark={isDark} text="rankings" side="left" />
-              <NavLink isDark={isDark} text="athletes" side="left" />
+              <li className="menu-list-item--left sublist">
+                <a href={ () => false } className={`menu-link  ${isDark ? ' isDark ': ''}`}>
+                  Athletes
+                </a>
+                <ul className={`menu-sublist ${isDark ? 'isDark': ''}`}>
+                  <li className="menu-sublist-item">
+                    <a href="/#" className="menu-link">all athletes</a>
+                  </li>
+                  <li className="menu-sublist-item">
+                    <a href="/#" className="menu-link">records</a>
+                  </li>
+                </ul>
+              </li>
               <NavLink isDark={isDark} text="news" side="left" />
               <NavLink isDark={isDark} home />
               <NavLink isDark={isDark} text="videos" side="is-pushed" />

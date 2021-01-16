@@ -67,8 +67,48 @@ header {
 .menu-list{
     padding: 0 15px;
     position: relative;
-    display: flex;
     width: 100%;
+    display: flex;
+}
+.menu-list-item--left .menu-sublist{
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    background-color: #e8e8e8;
+    transition: all 0.5s ease;
+    display: flex;
+    visibility: hidden;
+}
+
+
+.menu-list-item--left .menu-sublist.isDark {
+    background-color: #202020;
+}
+.menu-sublist.isDark .menu-link{
+    color: #fff;
+}
+
+.menu-sublist-item:first-child {
+    position: relative;
+}
+.menu-sublist-item:first-child:after {
+    content: '|';
+    position: absolute;
+    top: 28%;
+    right: 0;
+}
+
+.menu-list-item--left.sublist:hover .menu-sublist {
+    height: auto;
+    visibility: visible;
+}
+
+.menu-list-item--left .menu-sublist .menu-link {
+    color: grey;
+}
+.menu-list-item--left .menu-sublist .menu-link:hover {
+    color: #000;
 }
 .menu-list-item--left, .menu-list-item--right{
     display: flex;
@@ -90,7 +130,9 @@ header {
 }
 
 
-.menu-link {
+.menu-list-item--left .menu-link,
+.menu-list-item--right .menu-link,
+.menu-list-item--home .menu-link {
     display: block;
     font-family: 'DIN 2014';
     font-size: 1rem;

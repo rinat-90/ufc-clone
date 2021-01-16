@@ -39,7 +39,7 @@
 }
 .slick-prev {
     left: 1rem;
-    z-index: 2;
+    z-index: 1;
 }
 .slick-next, .slick-prev {
     width: 48px;

@@ -4,6 +4,7 @@ footer {
     width: 100%;
     min-height: 20rem;
     height: 20rem;
+    z-index: -1;
 }
 
 footer .footer-inner {
